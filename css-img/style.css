@@ -1,0 +1,186 @@
+/*TEMPO*/
+.fundo1 {
+    background-image: url(Fundo.jpg); /*Imagem de fundo*/
+    background-repeat: no-repeat; /*Impede que a imagem se repita*/
+    background-size: cover; /*Faz com que a imagem cubra todo o fundo*/
+}
+
+.borda {
+    border: 1px solid #000000; /*Borda*/
+    border-radius: 8px; /*Arredondamento dos cantos*/
+    padding: 20px; /*Espaçamento Interno*/
+    background-color: #00000088; /*Fundo*/
+    width: 270px; /*Largura*/
+    position: relative; /*Permite o uso dos comandos "top" e "left"*/
+    top: 200px; /*Move o elemento para baixo*/
+    left: 825px; /*Move o elemento para a direita*/
+    backdrop-filter: blur(10px); /*Aplica um desfoque ao fundo atrás do elemento*/
+}
+
+input[type="text"] {
+    background-color: #ffffff5b; 
+    border-radius: 10px;
+    border-color: rgb(38, 0, 255); /*Cor da borda*/
+    margin-bottom: 10px; /*Adiciona um espaço pixels abaixo de cada caixa de texto*/
+    width: 260px; /*Largura*/
+    height: 25px; /*Altura*/
+}
+
+button {
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    color: rgb(38, 0, 255); /*Cor do texto*/
+    padding: 10px 20px; /*Adiciona 10 pixels de espaçamento interno acima e abaixo, e 20 pixels nas laterais*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Fonte*/
+    font-size: 15px; /*Tamanho da fonte*/
+    position: relative;
+    left: 75px;
+}
+
+h1 {
+    position: relative;
+    left: 5px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Fonte*/
+}
+
+/*DÓLAR*/
+.fundo2 {
+    background-image: url(notas-de-dolar-estadunidense-um-dos-varios-tipos-de-dolares-utilizados-no-mundo.webp);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.borda2 {
+    border: 3px solid #09ff00; 
+    border-radius: 8px; 
+    padding: 20px; 
+    background-color: #00000088; 
+    width: 200px;
+    height: 390px;
+    position: relative; 
+    top: 200px; 
+    left: 837px; 
+    backdrop-filter: blur(10px); 
+}
+
+#valorDólar {
+    color: #09ff00;
+    font-size: 37px;
+    position: relative;
+    left: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#maiorValor {
+    color: #09ff00;
+    font-size: 37px;
+    position: relative;
+    left: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#menorValor {
+    color: #09ff00;
+    font-size: 37px;
+    position: relative;
+    left: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    left: 39px;
+}
+
+/*HOME*/
+.fundo3 {
+    background-image: url(8b3215c7ee7dbd5e33b36383a83a04b7.gif);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center -500px; /* Mover a imagem para o topo */
+}
+
+.opcao1 {
+    border: 1px solid #ffffff; /*Borda*/
+    border-radius: 25px; /*Arredondamento dos cantos*/
+    padding: 15px; /*Espaçamento Interno*/
+    background-color: #ffffff; /*Fundo*/
+    width: 72px; /*Largura*/
+    position: relative; /*Permite o uso dos comandos "top" e "left"*/
+    top: 280px; /*Move o elemento para baixo*/
+    left: 700px; /*Move o elemento para a direita*/
+    backdrop-filter: blur(10px); /*Aplica um desfoque ao fundo atrás do elemento*/
+    font-size: 28px;
+}
+
+.opcao2 {
+    border: 1px solid #ffffff; /*Borda*/
+    border-radius: 25px; /*Arredondamento dos cantos*/
+    padding: 15px; /*Espaçamento Interno*/
+    background-color: #ffffff; /*Fundo*/
+    width: 66px; /*Largura*/
+    position: relative; /*Permite o uso dos comandos "top" e "left"*/
+    top: 217px; /*Move o elemento para baixo*/
+    left: 1178px; /*Move o elemento para a direita*/
+    backdrop-filter: blur(10px); /*Aplica um desfoque ao fundo atrás do elemento*/
+    font-size: 28px;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.opcao3 {
+    border: 1px solid #ffffff; /*Borda*/
+    border-radius: 25px; /*Arredondamento dos cantos*/
+    padding: 15px; /*Espaçamento Interno*/
+    background-color: #ffffff; /*Fundo*/
+    width: 56px; /*Largura*/
+    position: relative; /*Permite o uso dos comandos "top" e "left"*/
+    top: 500px; /*Move o elemento para baixo*/
+    left: 930px; /*Move o elemento para a direita*/
+    backdrop-filter: blur(10px); /*Aplica um desfoque ao fundo atrás do elemento*/
+    font-size: 28px;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/*Estilizando o header*/
+.header {
+    background-color: rgb(255, 255, 255);
+    width: 98%; /*Diminui a largura para 98% da tela*/
+    padding: 20px;
+    text-align: left;
+}
+
+/* Estilo para o texto "home" */
+.titulo {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    margin: 0;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/*CEP*/
+.fundo4 {
+    background-color: darkgrey;
+}
+
+.titulo2 {
+    position: relative;
+    top: 100px;
+    color: #0400ff;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+fieldset {
+    position: relative;
+    top: 100px;
+    width: 10%; 
+    padding: 20px; 
+    border: 5px solid #000;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin: 0 auto
+}
+
